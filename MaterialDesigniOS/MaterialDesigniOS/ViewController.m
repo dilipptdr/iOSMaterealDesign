@@ -34,7 +34,7 @@
 }
 
 
-#pragma mark - Callback when used drags the TextView
+#pragma mark - Callback when user drags the TextView
 -(void)CustomViewScrolling:(UISwipeGestureRecognizerDirection)scrollDirection yShift:(CGFloat)yShift{
     
     bootomReached=NO;
