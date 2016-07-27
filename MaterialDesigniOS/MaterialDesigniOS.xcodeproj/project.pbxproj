@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC43C5A51D4926C800B59970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43C59A1D4926C800B59970 /* AppDelegate.m */; };
+		BC43C5A61D4926C800B59970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC43C59B1D4926C800B59970 /* Assets.xcassets */; };
+		BC43C5A71D4926C800B59970 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BC43C59C1D4926C800B59970 /* Base.lproj */; };
+		BC43C5A81D4926C800B59970 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43C59E1D4926C800B59970 /* CustomView.m */; };
+		BC43C5A91D4926C800B59970 /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43C59F1D4926C800B59970 /* drag.png */; };
+		BC43C5AA1D4926C800B59970 /* golmal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC43C5A01D4926C800B59970 /* golmal.jpg */; };
+		BC43C5AB1D4926C800B59970 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC43C5A11D4926C800B59970 /* Info.plist */; };
+		BC43C5AC1D4926C800B59970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43C5A21D4926C800B59970 /* main.m */; };
+		BC43C5AD1D4926C800B59970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43C5A41D4926C800B59970 /* ViewController.m */; };
+		BC43C5B41D49286600B59970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC43C5B01D49286600B59970 /* LaunchScreen.storyboard */; };
+		BC43C5B51D49286600B59970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC43C5B21D49286600B59970 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC43C5731D47D86B00B59970 /* MaterialDesigniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesigniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC43C5991D4926C800B59970 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MaterialDesigniOS/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BC43C59A1D4926C800B59970 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MaterialDesigniOS/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BC43C59B1D4926C800B59970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MaterialDesigniOS/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		BC43C59C1D4926C800B59970 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = MaterialDesigniOS/Base.lproj; sourceTree = SOURCE_ROOT; };
+		BC43C59D1D4926C800B59970 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = MaterialDesigniOS/CustomView.h; sourceTree = SOURCE_ROOT; };
+		BC43C59E1D4926C800B59970 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = MaterialDesigniOS/CustomView.m; sourceTree = SOURCE_ROOT; };
+		BC43C59F1D4926C800B59970 /* drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drag.png; path = MaterialDesigniOS/drag.png; sourceTree = SOURCE_ROOT; };
+		BC43C5A01D4926C800B59970 /* golmal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = golmal.jpg; path = MaterialDesigniOS/golmal.jpg; sourceTree = SOURCE_ROOT; };
+		BC43C5A11D4926C800B59970 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaterialDesigniOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		BC43C5A21D4926C800B59970 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MaterialDesigniOS/main.m; sourceTree = SOURCE_ROOT; };
+		BC43C5A31D4926C800B59970 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MaterialDesigniOS/ViewController.h; sourceTree = SOURCE_ROOT; };
+		BC43C5A41D4926C800B59970 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MaterialDesigniOS/ViewController.m; sourceTree = SOURCE_ROOT; };
+		BC43C5B11D49286600B59970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaterialDesigniOS/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		BC43C5B31D49286600B59970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaterialDesigniOS/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC43C5701D47D86B00B59970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC43C56A1D47D86B00B59970 = {
+			isa = PBXGroup;
+			children = (
+				BC43C5751D47D86B00B59970 /* MaterialDesigniOS */,
+				BC43C5741D47D86B00B59970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC43C5741D47D86B00B59970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC43C5731D47D86B00B59970 /* MaterialDesigniOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC43C5751D47D86B00B59970 /* MaterialDesigniOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC43C5B01D49286600B59970 /* LaunchScreen.storyboard */,
+				BC43C5B21D49286600B59970 /* Main.storyboard */,
+				BC43C5991D4926C800B59970 /* AppDelegate.h */,
+				BC43C59A1D4926C800B59970 /* AppDelegate.m */,
+				BC43C59B1D4926C800B59970 /* Assets.xcassets */,
+				BC43C59C1D4926C800B59970 /* Base.lproj */,
+				BC43C59D1D4926C800B59970 /* CustomView.h */,
+				BC43C59E1D4926C800B59970 /* CustomView.m */,
+				BC43C59F1D4926C800B59970 /* drag.png */,
+				BC43C5A01D4926C800B59970 /* golmal.jpg */,
+				BC43C5A11D4926C800B59970 /* Info.plist */,
+				BC43C5A31D4926C800B59970 /* ViewController.h */,
+				BC43C5A41D4926C800B59970 /* ViewController.m */,
+				BC43C5761D47D86B00B59970 /* Supporting Files */,
+			);
+			name = MaterialDesigniOS;
+			path = Spuul;
+			sourceTree = "<group>";
+		};
+		BC43C5761D47D86B00B59970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC43C5A21D4926C800B59970 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC43C5721D47D86B00B59970 /* MaterialDesigniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC43C58A1D47D86B00B59970 /* Build configuration list for PBXNativeTarget "MaterialDesigniOS" */;
+			buildPhases = (
+				BC43C56F1D47D86B00B59970 /* Sources */,
+				BC43C5701D47D86B00B59970 /* Frameworks */,
+				BC43C5711D47D86B00B59970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialDesigniOS;
+			productName = Spuul;
+			productReference = BC43C5731D47D86B00B59970 /* MaterialDesigniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC43C56B1D47D86B00B59970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dilip Patidar";
+				TargetAttributes = {
+					BC43C5721D47D86B00B59970 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BC43C56E1D47D86B00B59970 /* Build configuration list for PBXProject "MaterialDesigniOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC43C56A1D47D86B00B59970;
+			productRefGroup = BC43C5741D47D86B00B59970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC43C5721D47D86B00B59970 /* MaterialDesigniOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC43C5711D47D86B00B59970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC43C5B51D49286600B59970 /* Main.storyboard in Resources */,
+				BC43C5AA1D4926C800B59970 /* golmal.jpg in Resources */,
+				BC43C5A91D4926C800B59970 /* drag.png in Resources */,
+				BC43C5A71D4926C800B59970 /* Base.lproj in Resources */,
+				BC43C5B41D49286600B59970 /* LaunchScreen.storyboard in Resources */,
+				BC43C5A61D4926C800B59970 /* Assets.xcassets in Resources */,
+				BC43C5AB1D4926C800B59970 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC43C56F1D47D86B00B59970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC43C5AD1D4926C800B59970 /* ViewController.m in Sources */,
+				BC43C5A51D4926C800B59970 /* AppDelegate.m in Sources */,
+				BC43C5AC1D4926C800B59970 /* main.m in Sources */,
+				BC43C5A81D4926C800B59970 /* CustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC43C5B01D49286600B59970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC43C5B11D49286600B59970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC43C5B21D49286600B59970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC43C5B31D49286600B59970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC43C5881D47D86B00B59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC43C5891D47D86B00B59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC43C58B1D47D86B00B59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MaterialDesigniOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dilip.MaterialDesigniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC43C58C1D47D86B00B59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MaterialDesigniOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dilip.MaterialDesigniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC43C56E1D47D86B00B59970 /* Build configuration list for PBXProject "MaterialDesigniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC43C5881D47D86B00B59970 /* Debug */,
+				BC43C5891D47D86B00B59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC43C58A1D47D86B00B59970 /* Build configuration list for PBXNativeTarget "MaterialDesigniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC43C58B1D47D86B00B59970 /* Debug */,
+				BC43C58C1D47D86B00B59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC43C56B1D47D86B00B59970 /* Project object */;
+}
