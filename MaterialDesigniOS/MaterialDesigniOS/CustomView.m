@@ -1,14 +1,9 @@
 //
-//  L3SDKCardsView.m
-//  Parallax
-//
-//  Created by Domenico Vacchiano on 01/04/15.
-//  Copyright (c) 2015 LamCube. All rights reserved.
-//
+//  CustomView.m
+
 
 #import "CustomView.h"
-#define CARD_X_MARGIN   20
-#define CARD_Y_MARGIN   10
+
 
 
 
