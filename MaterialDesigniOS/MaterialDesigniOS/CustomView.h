@@ -1,11 +1,9 @@
 //
 // CustomViewsView.h
-
+//
+//
 
 #import <UIKit/UIKit.h>
-
-
-
 
 
 @protocol CustomViewDelegate <NSObject>

@@ -34,6 +34,7 @@
 }
 
 
+#pragma mark - Callback when used drags the TextView
 -(void)CustomViewScrolling:(UISwipeGestureRecognizerDirection)scrollDirection yShift:(CGFloat)yShift{
     
     bootomReached=NO;
@@ -103,6 +104,8 @@
 
 }
 
+
+#pragma mark - Callback when the scroll reaches the upper bound
 -(void)CustomViewUpperLimitReached{
     
     
@@ -125,6 +128,7 @@
     
 }
 
+#pragma mark - Callback when the scroll reaches the lower bound
 -(void)CustomViewBottomLimitReached{
 
     if(bootomReached==NO){

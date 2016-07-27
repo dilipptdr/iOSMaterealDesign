@@ -1,6 +1,7 @@
 //
 //  CustomView.m
 
+//
 
 #import "CustomView.h"
 
@@ -11,7 +12,6 @@
     @property (nonatomic,assign) UISwipeGestureRecognizerDirection gestureDirection;
     @property (nonatomic,assign)CGPoint gestureStartPoint;
     @property (nonatomic,assign)UIView*gestureView;
-    @property (nonatomic,strong)NSMutableArray*cardsOptions;
     @property (nonatomic,assign)CGRect superviewFrame;
 @end
 
@@ -56,9 +56,6 @@
 
 
 #pragma mark - Public Methods
-
-
-
 
 -(void)drawView{
     self.superviewFrame=self.superview.frame;
@@ -158,10 +155,12 @@
     
     return -1;
 }
+
+#pragma mark - Checking if we can further scroll
 -(BOOL)canScroll:(UISwipeGestureRecognizerDirection)scrollDirection{
     
  
-    if(scrollDirection==UISwipeGestureRecognizerDirectionUp && self.frame.origin.y<=20) {
+    if(scrollDirection==UISwipeGestureRecognizerDirectionUp && self.frame.origin.y<=10) {
         //UP scrolling
         
 //        if (fabs(self.frame.origin.y)>=fabs(self.frame.size.height-self.superviewFrame.size.height)) {
