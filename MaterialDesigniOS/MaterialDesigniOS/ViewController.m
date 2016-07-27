@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  
+//  Spuul
 //
 //  Created by Dilip Patidar on 26/07/16.
 //  Copyright © 2016 Dilip Patidar. All rights reserved.
@@ -78,9 +78,14 @@
                              animations:^{
                                  
                                  CGRect rect=self.imageView.frame;
-                                 rect.origin=CGPointMake(rect.origin.x, rect.origin.y+(yShift));
-                            
-                                 [self.imageView setFrame:rect];
+                                 
+                                 if(self.startImgFrame.origin.y>rect.origin.y+(yShift))
+                                 {
+                                     rect.origin=CGPointMake(rect.origin.x, rect.origin.y+(yShift));
+                                     
+                                     [self.imageView setFrame:rect];
+                                 }
+                                 
                                  CGFloat yval=self.lowerView.frame.origin.y;
                                  if(yval<100.0)
                                      [self.imageView setAlpha:(yval/100.0)];
@@ -118,7 +123,6 @@
     
     }
     
-    
 }
 
 -(void)CustomViewBottomLimitReached{
@@ -134,7 +138,9 @@
                          completion:^(BOOL finished){
                              if (finished) {
                                  bootomReached=NO;
-                                 self.imageView.transform=CGAffineTransformIdentity;
+                                 
+                                 self.imageView.transform=CGAffineTransformMakeScale(1.0, 1.0);
+//                                 self.imageView.transform=CGAffineTransformIdentity;
                              }
                              
                          }];
